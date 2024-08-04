@@ -1,17 +1,16 @@
 /* * {
     border: solid red 1px;
 } */
-html, body{
-    /* Full height */
+html,
+body {
     height: 100%;
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
     background-color: black;
     color: white;
-    
+
 }
 
 #title-container {
@@ -59,21 +58,20 @@ img {
 }
 
 @media only screen and (max-width: 600px) {
-    
-      img {
-        width: 90%;
-      }
-  }
+
+    img {
+        width: 80%;
+    }
+}
 
 #apod-explanation {
     font-family: 'Courier New', Courier, monospace;
     padding: 20px;
 }
 
-.gradient{
+.gradient {
     text-decoration: none;
     font-weight: 900;
-
     background-image: linear-gradient(90deg, red, blue);
     background-size: 0% 3px;
     background-repeat: no-repeat;
